@@ -1,5 +1,5 @@
 # Salary-Prediction
-Machine Learning web application in Python with and deployed using newly available Streamlit library. Used real world data available on stack overlow to build a machine learning model.
+Machine Learning web application in Python, deployed using newly available Streamlit library. Used real world data available on stack overlow to build a machine learning model.
 
 Web deployed app contains two pages.
 Explore -  you can get some insights about salaries worldwide.\
