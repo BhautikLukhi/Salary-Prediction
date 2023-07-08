@@ -23,5 +23,5 @@ pip install streamlit
 
 ### To run this project use followind command
 ```
-streamlit app.py
+streamlit run app.py
 ```
