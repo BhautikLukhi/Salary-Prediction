@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 def load_model():
-    with open('./Software-Developer-Salary-Prediction-Web-App-With-Streamlit/app/model.pkl', 'rb') as file:
+    with open('/Users/bhautik/Documents/GitHub/Salary-Prediction/model.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
 
