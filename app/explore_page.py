@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
 # function to the shorten the 'Country' column based on the unique values and count
 def shorten_categories(categories, cutoff):
@@ -34,7 +35,8 @@ def clean_education(x):
 
 st.cache_data
 def load_data():
-    df = pd.read_csv('/Users/bhautik/Documents/GitHub/Salary-Prediction/app/cleaned_data.csv')
+    file_path = os.path.join(os.path.dirname(__file__), "cleaned_data.csv")
+    df = pd.read_csv(file_path)
     return df
 
 df = load_data()
