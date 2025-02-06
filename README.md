@@ -5,9 +5,13 @@ Web deployed app contains two pages.
 Explore -  you can get some insights about salaries worldwide.\
 Predict - Predict salary according to your choice of combination
 
-To download the dataset go to following link and download 2020 data and put it in the project directory.
+To download the dataset go to following link and download 2024 data and put it in the project directory.
 
 https://insights.stackoverflow.com/survey
+
+Here you can access the deployed project :
+
+https://salary-predictor-2024.streamlit.app
 
 # About Streamlit 
 
